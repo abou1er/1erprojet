@@ -8,38 +8,68 @@
     <link rel="stylesheet" href="style.css">
     <title>Accueil - Smart Store</title>
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <div class="logoLeft">S</div>
 
-            <div class="logoRight">
-                <div class="name">mart</div>
-                <div class="name">tore</div>
-                <div class="devise">World Favorite Buy</div>
+
+<header class="tete">
+    <div class="logo">
+        <div class="logoLeft">S</div>
+
+        <div class="logoRight">
+            <div class="name">mart</div>
+            <div class="name">tore</div>
+            <div class="devise">World Favorite Buy</div>
+        </div>
+    </div>
+
+
+    <div class="headRight">
+        <div class="searchBar">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input class="search" type="text" placeholder="Trouver un produit.." name="search">
+                    <button type="submit"><i class="fa fa-2xl fa-search"></i></button>
+                </form>
             </div>
         </div>
 
+        <div class="panier">
+            <button><i class="fa-solid fa-2xl fa-cart-shopping"></i></button></i></div>
 
-        <div class="headRight">
-            <div class="searchBar">
-                <div class="search-container">
-                    <form action="/action_page.php">
-                        <input class="search" type="text" placeholder="Trouver un produit.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
-            </div>
+        <div class="user"><button><i class="fa-solid fa-2xl fa-user-large"></i></button></div>
 
+
+
+
+    </div>
+
+
+    <div class="headRightMob">
+
+        <div class="topHeadRight">
             <div class="panier">
-                <button><i class="fa-solid fa-cart-shopping"></i></button></i></div>
+            <button><i class="fa-solid fa-cart-shopping"></i></button></i></div>
 
             <div class="user"><button><i class="fa-solid fa-user-large"></i></button></div>
         </div>
 
+        <div class="searchBar">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input class="search" type="text" placeholder="Trouver un produit.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
 
 
-    </header>
+
+        
+    </div>
+
+
+</header>
+<body class="main">
+
 
     
     <nav>
@@ -135,7 +165,7 @@
         <div class="Carou">
 
             <div class="imgLeft cardimgCarou"><img src="img/ferArepasser.webp" alt="Téléphone"></div>
-            <div class="imgLeft cardimgCarou"><img src="img/homecinema.jpg" alt="Téléphone"></div>
+            <div class="imgLeft cardimgCarou homecinema"><img src="img/homecinema.jpg" alt="Téléphone"></div>
             <div class="imgLeft cardimgCarou"><img src="img/ventilateur.webp" alt="Téléphone"></div>
             <div class="imgLeft cardimgCarou"><img src="img/electronic1.jpg" alt="Téléphone"></div>
         
@@ -144,16 +174,17 @@
 
 
     <footer>
-        <div class="rgbd titleFoot">RGPD
+        <div class="rgbd ">
+            <div class="titleFoot">RGPD</div>
             <div class="textRgpd">
                 <p>Le règlement UE 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE dit règlement général sur la protection des données (RGPD, ou encore GDPR, de l'anglais General Data Protection Regulation), est un règlement de l'Union européenne qui constitue le texte de référence en matière de protection des données à caractère personnel1. </p>
             </div>
         </div>
         <div class="contactFoot">
             <div class="titleFoot">CONTACT</div>
-            <div class="facebook"><i class="fa-2x fa-brands fa-facebook-square"></i></div>
-            <div class="insta"><i class="fa-2x fa-brands fa-instagram"></i></div>
-            <div class="snapchat"><i class="fa-2x fa-brands fa-snapchat-square"></i></div>
+            <i class="fa-2x fa-brands fa-facebook-square"></i>
+            <i class="fa-2x fa-brands fa-instagram"></i>
+            <i class="fa-2x fa-brands fa-snapchat-square"></i>
         </div>
         <div class="navFoot">
             <div class="titleFoot">NAV</div>
@@ -166,6 +197,10 @@
             <a href="#"><div class="contactFoot">Contact</div></a>
         </div>
     </footer>
+
+
+    
+
 
 </body>
 </html>
