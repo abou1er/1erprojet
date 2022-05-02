@@ -13,7 +13,7 @@
 
     .tete {
         display: flex;
-        border: dashed 3px rgb(52, 37, 179);
+        /* border: dashed 3px rgb(52, 37, 179); */
         justify-content: flex-start;
         justify-content: space-between;
     }
@@ -21,7 +21,7 @@
 
     .logo {
         width: 33%;
-        border: dashed 3px rgb(117, 11, 117);
+        /* border: dashed 3px rgb(117, 11, 117); */
         display: flex;
         font-family: 'Radio Canada', sans-serif;
         min-width: 10px;
@@ -31,14 +31,14 @@
 
     .logoRight{
         width: 1200%;
-        border: darksalmon dashed 3px;
+        /* border: darksalmon dashed 3px; */
     }
 
     .searchBar {
         display: flex;
         justify-content: flex-end;
         width: 38%;
-        border: dashed 1px blueviolet;
+        /* border: dashed 1px blueviolet; */
         /* padding-left: 12%; */
         padding-top: 2%;
         min-width: 100%;
@@ -50,7 +50,7 @@
 
     .headRight {
         display: flex;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 90%;
         justify-content: flex-end;
     
@@ -58,12 +58,12 @@
 
 
     .panier{
-        border: rgb(122, 233, 155) dashed 3px;
+        /* border: rgb(122, 233, 155) dashed 3px; */
         width: 30%;
     }
 
     .user{
-        border: rgb(122, 233, 155) dashed 3px;
+        /* border: rgb(122, 233, 155) dashed 3px; */
         width: 30%;
     }
 
@@ -165,7 +165,7 @@ h3{
 
 .headRight {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: auto;
     justify-content: flex-end;
 
@@ -185,7 +185,7 @@ h3{
 
 .imgLeft {
     width: 35%;
-    border: 1px solid greenyellow;
+    border: 1px solid rgb(196, 47, 255);
     /* overflow: hidden; */
     display: flex;
     /* align-items: center;
@@ -313,19 +313,20 @@ footer div{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border: 4px solid red;
+    /* border: 4px solid red; */
     
 }
 .topHeadRight{
     display: flex;
     justify-content: space-around;
-    border: rgb(93, 200, 58) 3px solid;
+    /* border: rgb(93, 200, 58) 3px solid; */
 
 }
 
 .searchBar{
-    border: cyan 3px solid;
-    width: 78%;
+    /* border: cyan 3px solid; */
+    border: gray 2px solid;
+    width: 75%;
     
 
 }
